@@ -1,0 +1,136 @@
+﻿body {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+h1 {
+	border: 5px double #008000;
+	font-size: 30px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	color: #008000;
+	text-align: center;
+	background-color: #FFCC00;
+}
+h2 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 22px;
+	color: #990033;
+	background-color: #CCCCCC;
+	text-align: center;
+}
+h6 {
+	font-size: 16px;
+	text-align: center;
+}
+
+a:link {
+	color: #3399FF;
+}
+a:hover {
+	color: #3366FF;
+}
+a:visited {
+	color: #663300;
+}
+p {
+	text-indent: 20px;
+	line-height: 20px;
+}
+p.img {
+	text-align: center;
+	text-indent: 0px;
+}
+li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+table {
+	width: 90%;
+	text-align: center;
+	vertical-align: middle;
+}
+td.notselected {
+	color: #666666
+}
+td.type {
+	width: 200px;
+}
+td {
+	border: thin double #CC99FF;
+	text-align: center;
+}
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+#topwelcome {
+	position: relative;
+	border-style: inset;
+	width: 350px;
+	text-align: center;
+	border-width: thick;
+	background-color: #FFFF00;
+	font-size: 33px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: block;
+	clear: right;
+}
+#nextcolumn {
+	padding: 5px;
+	border-style: groove;
+	border-width: medium;
+	float: right;
+	background-color: #FFFFFF;
+	text-align: right;
+}
+#lastcolumn {
+	padding: 5px;
+	border-style: groove;
+	border-width: medium;
+	float: right;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+#topnotice {
+	float: right;
+	border-style: ridge;
+	background-color: #FFFF00;
+	font-size: 33px;
+	font-family: "Yu Mincho";
+	clear: both;
+	position: absolute;
+	text-align: right;
+	border-radius: 80px;
+	left: 65%;
+}
+.index {
+	padding: 10px;
+	border-style: groove;
+	background-color: #F9F9F9;
+	display: table;
+	width: auto;
+	height: auto;
+	z-index: auto;
+	border-width: 1px;
+	margin-left: 5%;
+	margin-top: 60px;
+}
+li.header {
+	list-style-type: none;
+	font-size: 20px;
+	list-style-position: outside;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+li.content {
+	list-style-type: none;
+	list-style-position: outside;
+}
+video.center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}

@@ -1,0 +1,10 @@
+﻿video.center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p {
+	text-align: center;
+	text-indent: 0px;
+}

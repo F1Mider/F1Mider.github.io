@@ -1,0 +1,49 @@
+﻿img.articlecover {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+#intro {
+	border-radius: 20px;
+	border-style: groove;
+	border-width: medium;
+	width: auto;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: block;
+	margin-right: 10%;
+	margin-left: 10%;
+	display: block;
+	margin-top: 30px;
+}
+a.articletitle:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+a.articletitle:hover {
+	color: #3366FF;
+}
+a.articletitle:visited {
+	color: #663300;
+}
+
+a.readmore {
+	font-style: italic;
+}
+a.readmore:link {
+	color: #0000FF;
+}
+a.readmore:hover {
+	color: #3366FF;
+}
+a.readmore:visited {
+	color: #663300;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	text-align: center;
+}

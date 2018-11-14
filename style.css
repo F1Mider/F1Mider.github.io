@@ -1,0 +1,87 @@
+﻿/*- Menu Tabs 14--------------------------- */
+    #tabs14 {
+	font: bold 11px/1.5em Verdana;
+	float: left;
+	width: 100%;
+	font-size: 93%;
+	line-height: normal;
+	border-bottom-style: groove;
+}
+    #tabs14 ul {
+    margin:0;
+	padding: 10px 25% 0 25%;
+	list-style: none;
+}
+    #tabs14 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs14 a {
+	float: left;
+	background: url("images/tableft14.gif") no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 4px;
+	text-decoration: none;
+}
+    #tabs14 a span {
+      float:left;
+      display:block;
+      background:url("images/tabright14.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs14 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs14 a:hover span {
+      color:#000;
+      }
+    #tabs14 a:hover {
+      background-position:0% -42px;
+      }
+    #tabs14 a:hover span {
+      background-position:100% -42px;
+      }
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+
+#top {
+	position: relative;
+	width: auto;
+	text-align: center;
+	font-size: 35px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	display: block;
+	clear: right;
+}
+
+a.webname {
+	color: #000000;
+}
+
+footer {
+	text-align: center;
+	margin-top: 60px;
+	border-top-style: dotted;
+}
+
+p {
+	text-indent: 20px;
+	line-height: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+
+

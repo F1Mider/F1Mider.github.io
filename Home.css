@@ -1,0 +1,93 @@
+﻿p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+
+}
+#wrap, #topwrap {
+	border-radius: 20px;
+	border-style: groove;
+	border-width: medium;
+	width: auto;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: block
+
+}
+#sidebar {
+	overflow: hidden;
+	display: block;
+	margin-left: 5%;
+	margin-right: 61%;
+	margin-top: 60px;
+	position: absolute;
+}
+
+#wrap {
+	margin-top: 20px;
+}
+
+#content {
+	display: block;
+	margin-right: 5%;
+	margin-left: 41%;
+	margin-top: 60px;
+	position: relative;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	text-align: center;
+}
+table.schedule {
+	margin-right: auto;
+	margin-left: auto;
+}
+td {
+	padding: 3px 8px 3px 8px;
+}
+img {
+	width: 100%;
+}
+a.articletitle:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+a.articletitle:hover {
+	color: #3366FF;
+}
+a.articletitle:visited {
+	color: #663300;
+}
+
+a.readmore {
+	font-style: italic;
+}
+a.readmore:link {
+	color: #0000FF;
+}
+a.readmore:hover {
+	color: #3366FF;
+}
+a.readmore:visited {
+	color: #663300;
+}
+h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#article {
+	border-top-style: solid;
+}
+
+td.train {
+	color: #6600CC;
+}
+td.flight {
+	color: #006666;
+}
+

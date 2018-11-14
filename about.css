@@ -1,0 +1,19 @@
+﻿p.about {
+	padding-left:5%;
+	padding-right:5%;
+}
+#left {
+	display: block;
+	margin-right: 50%;
+	margin-top: 60px;
+	position: absolute;
+}
+#right {
+	display: block;
+	margin-left: 50%;
+	margin-top: 60px;
+	position: relative;
+}
+img {
+	width:95%;
+}

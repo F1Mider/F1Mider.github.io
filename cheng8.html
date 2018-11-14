@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Sample JavaScripts</title>
+<script>
+<!-- Hide the script from old browsers --
+function surfto(form) {
+var myindex=form.select1.selectedIndex
+if (form.select1.options[myindex].value != 0) {
+location=form.select1.options[myindex].value;}
+}
+//-->
+</script>
+</head>
+
+<body>
+<form name="form1" class="airlineweb">
+Please select an airline <select name="select1" size="1">
+<option value="0" selected> Please select an airline </option>
+<option value="https://www.united.com">United Airlines</option>
+<option value="https://www.delta.com"> Delta Air Lines</option>
+<option value="https://www.aa.com"> American Airlines</option>
+</select>
+<input type="button" value="Go to Website" onClick="surfto(this.form)" name="button">
+</form>
+
+<p></p>
+
+<script>
+//<![CDATA[
+
+<!--
+
+// protected email script by Joe Maller
+
+// JavaScripts available at http://www.joemaller.com
+
+// this script is free to use and distribute
+
+// but please credit me and/or link to my site
+
+emailE=('f1mider@' + 'hotmail.com')
+
+document.write('<A href="mailto:' + emailE + '">' + emailE + '<\/a>')
+
+document.write(' or ')
+emailE=('haocong2@' + 'illinois.com')
+
+document.write('<A href="mailto:' + emailE + '">' + emailE + '<\/a>')
+document.write(' or ')
+document.write('call: (123)456-7890 ')
+document.write(' or ')
+document.write('Google Hangout: f1middler@gmail.com')
+//-->
+
+//]]>
+
+</script>
+<noscript>
+Contact information protected by JavaScript.<br>
+Please enable JavaScript to contact me.
+</noscript>
+
+<p></p>
+
+<script>
+
+//<![CDATA[
+<!--
+document.write( "last modified at: " + document.lastModified )
+// -->
+//]]>
+</script>
+
+
+</body>
+
+</html>
