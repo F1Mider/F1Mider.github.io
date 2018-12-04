@@ -134,3 +134,11 @@ video.center {
 	margin-right: auto;
 	margin-left: auto;
 }
+img.sidebyside {
+	width: 40%;
+	min-width: 520px;
+}
+img.graph {
+	width: 80%;
+	max-width: 960px;
+}
